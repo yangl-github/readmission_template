@@ -8,18 +8,17 @@ pids = df_patients$pid
 lst = split(df_rules %>% select(leaf, variable, variable_level), 
             df_rules$variable)
 lst_of_rules = lapply(names(lst), function(var) {
-        #var = "Age"
         elt = lst[[var]]
-        elt$variable = NULL # remove column variable
-        names(elt) = gsub("variable_level", var, names(elt)) #?
+        elt$variable = NULL
+        names(elt) = gsub("variable_level", var, names(elt))
         if (var %in% c("Age", "LOS")) elt[[var]] = as.integer(elt[[var]])
         elt
 })
 names(lst_of_rules) = names(lst)
 
 # # see the difference between lst and lst_of_rules
-# a <- lst[[1]]
-# b <- lst_of_rules[[1]]
+# lst[[1]]
+# lst_of_rules[[1]]
 
 
 # classify/match patients based on each split variable independently
@@ -61,7 +60,6 @@ lst_of_df_scored = foreach(i = pids) %dopar% {
         # append pid and return
         cbind(pid = i, df_scored)
 }
-#%stopCluster(cl) # stop using multiple cores 
 
 # rowbind into a big data frame
 df_scored = bind_rows(lst_of_df_scored)
