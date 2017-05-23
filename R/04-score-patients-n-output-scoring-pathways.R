@@ -30,7 +30,7 @@ names(lst_of_matches) = names(lst_of_rules)
 
 # score patients and find the correct scoring pathway
 # lst_of_df_scored = lapply(pids, function(i) {
-lst_of_df_scored = foreach(i = pids) %dopar% {        
+lst_of_df_scored = foreach(i = pids, .packages='dplyr') %dopar% {        
         # i = 35
         # cat(i, "\n")
         
