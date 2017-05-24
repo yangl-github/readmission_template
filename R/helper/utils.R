@@ -14,6 +14,6 @@ ypct_in_cat_x = function(df, yvar) {
                 dimnames(pt) = dimnames(tab)
                 tbl = cbind(row.names(tab), apply(tab, 1, sum), data.frame(pt))
                 names(tbl) = c(xvar, "Count", "Readmission-NO", "Readmission-YES")
-                tbl
+                tbl %>% arrange(-Count)
         }
 }
