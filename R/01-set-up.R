@@ -1,5 +1,5 @@
 # install packages from cran
-cran_pkgs = c("readr", "tidyr", "dplyr", "knitr", "rmarkdown",
+cran_pkgs = c("devtools", "readr", "tidyr", "dplyr", "knitr", "rmarkdown",
               "foreach", "doParallel")
 for (pkg in cran_pkgs) {
         if (!pkg %in% installed.packages()) {
