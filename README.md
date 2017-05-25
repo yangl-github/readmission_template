@@ -4,3 +4,6 @@
 Try this link using jump box for variable reference. It is an internal link. It should covers most of the variables in the data set. 
  
 Then Data Elements -> choose the first letter of the variable name and browse for the one you are looking for -> tab Definition -> Domain association -> Value List
+
+
+[c5.0 demo](http://www.euclidean.com/machine-learning-in-practice/2015/6/12/r-caret-and-parameter-tuning-c50)
