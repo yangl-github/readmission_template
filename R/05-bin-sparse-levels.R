@@ -9,7 +9,7 @@ lst_of_lumps = list(c("RON", "PPSY"),
                     c("REN", "HAE", "SON"))
 for (lump in lst_of_lumps) 
         df$Medical_Officer_1_Unit[df$Medical_Officer_1_Unit %in% lump] = 
-                paste(lump, collapse=" | ")
+                paste(lump, collapse="_")
 
 
 lst_of_lumps = list(c("M711", "L212"),
@@ -25,7 +25,7 @@ lst_of_lumps = list(c("M711", "L212"),
                     c("R710", "M710", "M703", "R713", "M714")
                     )
 for (lump in lst_of_lumps) 
-        df$Facility_ID[df$Facility_ID %in% lump] = paste(lump, collapse=" | ")
+        df$Facility_ID[df$Facility_ID %in% lump] = paste(lump, collapse="_")
 
 lst_of_lumps = list(c("8 - Psycho-geriatric", "4 - Maintenance Care",
                       "7 - Geriatric Evaluation and Management"),
@@ -33,8 +33,8 @@ lst_of_lumps = list(c("8 - Psycho-geriatric", "4 - Maintenance Care",
                       "9 - Organ Procurement - Posthumous")
                     )
 for (lump in lst_of_lumps) 
-        df$Episode_of_Care_Type[df$Episode_of_Care_Type %in% lump] = 
-                paste(lump, collapse="\n")
+        df$Episode_of_Care_Type[df$Episode_of_Care_Type %in% lump] = "Other"
+                # paste(lump, collapse="\n")
 
 lst_of_lumps = list(c("11-Transfer to Palliative Care Unit / Hospice", 
                       "3-Transfer to Residential Aged Care Facility"),
@@ -42,11 +42,11 @@ lst_of_lumps = list(c("11-Transfer to Palliative Care Unit / Hospice",
                       "8-Transfer to Other Accommodation")
                     )
 for (lump in lst_of_lumps) 
-        df$Mode_of_Separation[df$Mode_of_Separation %in% lump] = 
-                paste(lump, collapse="\n")
+        df$Mode_of_Separation[df$Mode_of_Separation %in% lump] = "Other"
+                # paste(lump, collapse="\n")
 
 
 lst_of_lumps = list(c("3", "9"))
 for (lump in lst_of_lumps) 
         df$Medicare_Eligibilty_Status[df$Medicare_Eligibilty_Status %in% lump] = 
-                paste(lump, collapse=" | ")
+                paste(lump, collapse="_")
