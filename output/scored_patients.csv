@@ -47,7 +47,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 46,M207,Not Given,Not Given,F,39,1,99 Unallocated,Aboriginal,1,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 47,M207,Not Given,Not Given,M,36,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 48,M207,Not Given,Not Given,F,68,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-49,M207,Not Given,Not Given,F,34,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+49,M207,Not Given,Not Given,F,34,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 50,M207,Y,Not Given,M,57,1,99 Unallocated,Aboriginal,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 51,M207,Not Given,Not Given,F,68,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 52,M207,Not Given,Not Given,F,81,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -285,7 +285,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 284,R219,Y,Not Given,F,3,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 285,R219,Not Given,Not Given,M,69,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 286,M212,Not Given,Y,M,82,20,84 Rehabilitation,Neither Aboriginal or Torres Straight Islander,0,215,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.710734463,Re-admission
-287,M207,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+287,M207,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 288,M206,Not Given,Not Given,M,48,1,54 Non Subspecialty Surgery,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
 289,M210,Not Given,Not Given,F,82,14,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 290,M712,Not Given,Not Given,F,79,29,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -519,7 +519,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 518,M209,Not Given,Not Given,F,86,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 519,R219,Not Given,Not Given,F,75,11,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,829,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.707029246,Re-admission
 520,R219,Not Given,Not Given,F,75,11,84 Rehabilitation,Neither Aboriginal or Torres Straight Islander,0,416,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.377770936,No Re-admission
-521,M209,Not Given,Not Given,M,21,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+521,M209,Not Given,Not Given,M,21,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 522,M209,Not Given,Not Given,F,81,2,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 523,M209,Not Given,Not Given,M,21,1,44 Upper GIT Surgery,Neither Aboriginal or Torres Straight Islander,0,1703,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.716535433,Re-admission
 524,R219,Not Given,Not Given,F,84,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -723,7 +723,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 722,R216,Not Given,Y,F,20,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,785,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.347480106,No Re-admission
 723,R216,Y,Not Given,M,41,3,NA,Aboriginal,0,NA,NA,NA,NA
 724,R219,Not Given,Y,F,20,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,826,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.542009885,Re-admission
-725,R216,Not Given,Not Given,F,17,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+725,R216,Not Given,Not Given,F,17,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 726,R216,Y,Not Given,M,81,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 727,R219,Not Given,Not Given,M,69,1,12 Interventional Cardiology,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 728,R216,Y,Y,M,95,11,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -832,7 +832,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 831,R216,Not Given,Not Given,F,62,1,54 Non Subspecialty Surgery,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 832,R216,Y,Y,F,23,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1013,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.783216783,Re-admission
 833,R219,Not Given,Not Given,M,70,1,51 Plastic and Reconstructive Surgery,Neither Aboriginal or Torres Straight Islander,0,1286,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.169753086,No Re-admission
-834,R205,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+834,R205,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 835,L212,Not Given,Not Given,M,32,1,99 Unallocated,Aboriginal,0,NA,NA,NA,NA
 836,L212,Not Given,Not Given,M,60,1,99 Unallocated,Aboriginal,0,NA,NA,NA,NA
 837,R205,Not Given,Not Given,M,29,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
@@ -1121,7 +1121,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1120,R216,Y,Not Given,M,82,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 1121,R221,Not Given,Not Given,F,71,1,51 Plastic and Reconstructive Surgery,Neither Aboriginal or Torres Straight Islander,0,320,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.071865443,No Re-admission
 1122,R216,Y,Not Given,M,62,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-1123,R216,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1123,R216,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1124,R219,Not Given,Y,F,44,2,82 Psychiatry - Acute,Neither Aboriginal or Torres Straight Islander,0,855,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.687619048,Re-admission
 1125,R219,Not Given,Not Given,M,45,8,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
 1126,R219,Not Given,Not Given,M,45,8,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -1408,14 +1408,14 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1407,N218,Not Given,Not Given,F,73,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 1408,R219,Y,Not Given,M,60,5,12 Interventional Cardiology,Neither Aboriginal or Torres Straight Islander,0,953,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.720292505,Re-admission
 1409,N218,Y,Not Given,M,80,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-1410,R216,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1410,R216,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1411,R216,Y,Y,F,23,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,1013,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.783216783,Re-admission
 1412,R219,Not Given,Not Given,M,0,3,73 Qualified Neonate,Neither Aboriginal or Torres Straight Islander,1,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
 1413,R216,Not Given,Not Given,F,88,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 1414,R216,Not Given,Not Given,F,51,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,1572,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.395973154,No Re-admission
 1415,R216,Not Given,Y,M,55,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 1416,R219,Not Given,Not Given,M,71,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-1417,R216,Not Given,Not Given,F,29,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1417,R216,Not Given,Not Given,F,29,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1418,R216,Not Given,Not Given,F,26,2,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1419,R216,Not Given,Not Given,F,66,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 1420,R216,Not Given,Not Given,F,28,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
@@ -1423,7 +1423,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1422,R216,Y,Y,F,23,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1013,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.783216783,Re-admission
 1423,R205,Y,Not Given,M,51,1,99 Unallocated,Aboriginal,0,2025,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.690721649,Re-admission
 1424,R211,Y,Not Given,F,12,1,15 Gastroenterology,Neither Aboriginal or Torres Straight Islander,1,1828,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.337278107,No Re-admission
-1425,R205,Not Given,Not Given,F,38,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1425,R205,Not Given,Not Given,F,38,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1426,R211,Not Given,Not Given,F,71,1,21 Neurology,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 1427,R211,Y,Not Given,F,77,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2037,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.683127572,Re-admission
 1428,R211,Not Given,Not Given,M,71,1,24 Respiratory Medicine,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
@@ -1597,7 +1597,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1596,R211,Not Given,Not Given,F,84,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 1597,R205,Not Given,Not Given,M,75,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 1598,R219,Not Given,Not Given,M,40,1,54 Non Subspecialty Surgery,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
-1599,R205,Not Given,Not Given,F,33,5,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1599,R205,Not Given,Not Given,F,33,5,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1600,M208,Not Given,Not Given,M,55,1,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,1,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
 1601,M208,Y,Not Given,M,56,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1602,M208,Not Given,Not Given,M,56,1,24 Respiratory Medicine,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
@@ -1745,7 +1745,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1744,R211,Not Given,Not Given,F,42,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1745,R219,Not Given,Not Given,M,74,7,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1746,R211,Not Given,Not Given,F,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
-1747,R205,Not Given,Y,F,17,3,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1747,R205,Not Given,Y,F,17,3,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1748,R211,Not Given,Not Given,M,83,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,399,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.67498549,Re-admission
 1749,R211,Not Given,Not Given,M,42,1,11 Cardiology,Neither Aboriginal or Torres Straight Islander,0,791,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.58988764,Re-admission
 1750,R205,Not Given,Not Given,M,42,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -1778,8 +1778,8 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1777,R219,Y,Not Given,F,86,8,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 1778,R205,Y,Not Given,F,69,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 1779,R205,Not Given,Not Given,F,27,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
-1780,R205,Not Given,Not Given,F,60,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
-1781,R205,Not Given,Not Given,M,5,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1780,R205,Not Given,Not Given,F,60,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
+1781,R205,Not Given,Not Given,M,5,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1782,N218,Not Given,Not Given,M,87,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,826,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.542009885,Re-admission
 1783,R219,Not Given,Not Given,F,8,1,48 ENT & Head and Neck,Neither Aboriginal or Torres Straight Islander,0,322,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.15890411,No Re-admission
 1784,N218,Not Given,Not Given,M,11,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -1810,13 +1810,13 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1809,R211,Y,Not Given,F,54,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 1810,R211,Not Given,Y,F,60,3,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,1,1651,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.756521739,Re-admission
 1811,R211,Y,Not Given,M,85,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-1812,R205,Not Given,Not Given,F,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1812,R205,Not Given,Not Given,F,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1813,R211,Not Given,Not Given,M,69,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,824,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.528683915,Re-admission
 1814,R219,Not Given,Y,F,74,10,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1815,R211,Not Given,Not Given,F,47,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,826,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.542009885,Re-admission
 1816,R211,Not Given,Y,F,28,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1650,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.456521739,No Re-admission
 1817,R219,Not Given,Not Given,M,71,17,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
-1818,R205,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1818,R205,Not Given,Not Given,M,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1819,R205,Not Given,Not Given,F,38,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 1820,R211,Not Given,Not Given,M,21,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1821,R219,Not Given,Not Given,F,55,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
@@ -1959,7 +1959,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 1958,R219,Not Given,Not Given,M,81,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 1959,R219,Not Given,Not Given,M,6,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 1960,R205,Not Given,Not Given,M,37,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-1961,R205,Not Given,Not Given,F,37,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+1961,R205,Not Given,Not Given,F,37,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 1962,R219,Y,Not Given,M,36,1,15 Gastroenterology,Neither Aboriginal or Torres Straight Islander,0,1800,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.417420814,No Re-admission
 1963,R219,Y,Not Given,M,70,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2017,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.568922306,Re-admission
 1964,R219,Not Given,Not Given,M,43,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -2019,7 +2019,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 2018,R211,Not Given,Not Given,F,87,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,826,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.542009885,Re-admission
 2019,R215,Y,Not Given,M,87,8,87 Maintenance,Neither Aboriginal or Torres Straight Islander,0,251,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.693917942,Re-admission
 2020,R215,Y,Not Given,F,87,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-2021,R205,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+2021,R205,Not Given,Not Given,F,34,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 2022,R215,Y,Y,F,55,1,99 Unallocated,Aboriginal,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 2023,R215,Y,Not Given,F,62,2,NA,Aboriginal,0,NA,NA,NA,NA
 2024,R215,Y,Not Given,F,82,9,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -2092,7 +2092,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 2091,R205,Y,Not Given,M,57,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 2092,R211,Not Given,Not Given,F,69,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 2093,R219,Not Given,Not Given,F,24,1,49 Orthopaedics,Neither Aboriginal or Torres Straight Islander,0,1700,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.45106383,No Re-admission
-2094,R205,Not Given,Not Given,M,1,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+2094,R205,Not Given,Not Given,M,1,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 2095,R211,Not Given,Not Given,M,79,22,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 2096,R219,Y,Not Given,M,9,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2016,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.385,No Re-admission
 2097,R205,Not Given,Not Given,F,26,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -2729,7 +2729,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 2728,R205,Y,Not Given,F,79,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 2729,R205,Y,Not Given,M,72,1,99 Unallocated,Aboriginal,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 2730,R205,Y,Not Given,M,85,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-2731,R205,Not Given,Not Given,F,26,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+2731,R205,Not Given,Not Given,F,26,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 2732,R205,Not Given,Not Given,M,64,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 2733,R219,Not Given,Not Given,F,66,1,23 Renal Dialysis,Aboriginal,0,16,"SRG_Desc, Age, LOS",0.04793748,No Re-admission
 2734,R219,Y,Y,M,82,1,23 Renal Dialysis,Neither Aboriginal or Torres Straight Islander,0,16,"SRG_Desc, Age, LOS",0.04793748,No Re-admission
@@ -2786,7 +2786,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 2785,R219,Not Given,Not Given,F,74,1,53 Vascular Surgery,Neither Aboriginal or Torres Straight Islander,0,385,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.276482021,No Re-admission
 2786,R205,Not Given,Not Given,M,68,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 2787,R205,Not Given,Not Given,M,63,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-2788,R205,Not Given,Not Given,M,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+2788,R205,Not Given,Not Given,M,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 2789,R205,Not Given,Not Given,F,83,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 2790,R205,Not Given,Not Given,M,49,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 2791,R219,Not Given,Not Given,M,77,3,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,0,1655,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.651020408,Re-admission
@@ -2874,7 +2874,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 2873,R219,Y,Not Given,M,26,1,52 Urology,Neither Aboriginal or Torres Straight Islander,0,1800,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.417420814,No Re-admission
 2874,R205,Y,Not Given,M,64,2,99 Unallocated,Aboriginal,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 2875,R205,Not Given,Not Given,M,26,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
-2876,R205,Not Given,Not Given,M,24,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+2876,R205,Not Given,Not Given,M,24,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 2877,R205,Y,Not Given,M,64,1,17 Haematology,Neither Aboriginal or Torres Straight Islander,0,448,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.361432301,No Re-admission
 2878,R205,Not Given,Not Given,F,30,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 2879,R205,Not Given,Not Given,F,76,7,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -3057,7 +3057,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3056,R205,Not Given,Not Given,F,70,6,84 Rehabilitation,Neither Aboriginal or Torres Straight Islander,0,439,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.746858169,Re-admission
 3057,R205,Not Given,Not Given,F,70,6,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 3058,R219,Not Given,Not Given,M,58,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,824,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.528683915,Re-admission
-3059,R205,Not Given,Not Given,F,26,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3059,R205,Not Given,Not Given,F,26,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3060,R205,Not Given,Y,M,21,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3061,R205,Not Given,Not Given,F,83,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 3062,R205,Y,Not Given,F,93,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -3113,7 +3113,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3112,R205,Y,Not Given,F,46,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 3113,R205,Y,Not Given,F,61,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3114,R205,Not Given,Not Given,F,29,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
-3115,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3115,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3116,R205,Not Given,Not Given,F,0,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 3117,R205,Y,Not Given,F,76,10,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3118,R205,Not Given,Not Given,F,63,7,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
@@ -3191,7 +3191,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3190,R205,Not Given,Not Given,M,75,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3191,R205,Y,Not Given,M,73,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3192,R205,Not Given,Y,F,72,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-3193,R205,Not Given,Not Given,F,21,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3193,R205,Not Given,Not Given,F,21,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3194,R205,Y,Not Given,F,46,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 3195,R219,Y,Not Given,M,88,9,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3196,R219,Not Given,Not Given,F,76,1,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,0,1558,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.465240642,No Re-admission
@@ -3499,7 +3499,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3498,R219,Not Given,Not Given,F,63,7,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 3499,R205,Y,Not Given,M,6,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 3500,R205,Y,Not Given,M,73,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-3501,R205,Not Given,Not Given,M,6,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3501,R205,Not Given,Not Given,M,6,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3502,R205,Not Given,Not Given,M,4,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3503,R205,Not Given,Not Given,M,41,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 3504,R205,Y,Not Given,M,8,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -3532,7 +3532,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3531,R205,Y,Not Given,M,90,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 3532,R205,Not Given,Not Given,F,35,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3533,R205,Not Given,Not Given,M,39,2,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
-3534,R205,Not Given,Not Given,M,9,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3534,R205,Not Given,Not Given,M,9,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3535,R205,Not Given,Y,M,50,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 3536,R205,Y,Not Given,M,5,1,99 Unallocated,Torres Straight Islander,0,2025,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.690721649,Re-admission
 3537,R205,Not Given,Not Given,F,77,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
@@ -3655,7 +3655,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3654,R221,Not Given,Not Given,F,88,10,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 3655,R221,Not Given,Not Given,M,52,1,43 Colorectal Surgery,Neither Aboriginal or Torres Straight Islander,0,1586,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.130434783,No Re-admission
 3656,R221,Not Given,Not Given,M,19,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,785,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.347480106,No Re-admission
-3657,R205,Not Given,Not Given,M,60,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3657,R205,Not Given,Not Given,M,60,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3658,R205,Y,Not Given,M,50,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3659,R219,Not Given,Not Given,M,18,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3660,R205,Not Given,Not Given,F,9,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -3664,7 +3664,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3663,R205,Y,Not Given,F,36,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2024,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.465909091,No Re-admission
 3664,R205,Not Given,Not Given,F,31,6,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 3665,R205,Not Given,Not Given,F,60,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-3666,R205,Not Given,Not Given,M,9,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3666,R205,Not Given,Not Given,M,9,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3667,R205,Not Given,Not Given,M,21,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3668,R205,Not Given,Not Given,F,0,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 3669,R205,Not Given,Not Given,F,27,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -3673,13 +3673,13 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3672,R205,Not Given,Not Given,M,7,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 3673,R219,Not Given,Not Given,M,6,1,49 Orthopaedics,Neither Aboriginal or Torres Straight Islander,0,416,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.377770936,No Re-admission
 3674,R219,Not Given,Not Given,F,19,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
-3675,R205,Not Given,Not Given,F,9,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3675,R205,Not Given,Not Given,F,9,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3676,R205,Not Given,Not Given,F,17,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3677,R205,Not Given,Not Given,M,24,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 3678,R205,Not Given,Not Given,M,3,1,99 Unallocated,Aboriginal,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3679,R205,Not Given,Not Given,F,61,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 3680,R205,Y,Not Given,F,7,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-3681,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3681,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3682,R205,Not Given,Not Given,M,0,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 3683,R221,Not Given,Not Given,F,22,1,47 Dentistry,Neither Aboriginal or Torres Straight Islander,0,16,"SRG_Desc, Age, LOS",0.04793748,No Re-admission
 3684,R221,Not Given,Not Given,F,67,1,15 Gastroenterology,Neither Aboriginal or Torres Straight Islander,0,1595,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.660046729,Re-admission
@@ -3706,8 +3706,8 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3705,R219,Not Given,Not Given,F,92,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 3706,R219,Not Given,Not Given,F,10,1,49 Orthopaedics,Neither Aboriginal or Torres Straight Islander,0,416,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.377770936,No Re-admission
 3707,R205,Not Given,Not Given,M,0,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
-3708,R205,Not Given,Not Given,M,29,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
-3709,R205,Not Given,Not Given,M,1,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3708,R205,Not Given,Not Given,M,29,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
+3709,R205,Not Given,Not Given,M,1,2,99 Unallocated,Aboriginal,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3710,R219,Not Given,Not Given,F,33,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 3711,R205,Not Given,Not Given,M,74,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 3712,R205,Not Given,Not Given,F,4,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -3902,7 +3902,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 3901,R205,Not Given,Not Given,F,58,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 3902,R205,Y,Not Given,M,80,6,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3903,R205,Y,Not Given,M,73,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-3904,R205,Not Given,Not Given,M,26,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+3904,R205,Not Given,Not Given,M,26,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 3905,R205,Not Given,Not Given,F,87,21,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 3906,R205,Y,Not Given,F,31,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 3907,R205,Not Given,Not Given,F,50,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
@@ -4046,7 +4046,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4045,R205,Not Given,Not Given,F,31,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 4046,R205,Not Given,Not Given,M,77,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 4047,R205,Not Given,Not Given,F,10,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
-4048,R205,Not Given,Not Given,F,38,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4048,R205,Not Given,Not Given,F,38,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4049,R205,Not Given,Not Given,F,91,7,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4050,R205,Not Given,Not Given,M,75,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 4051,R205,Not Given,Not Given,M,85,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
@@ -4230,7 +4230,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4229,R206,Y,Not Given,F,24,1,21 Neurology,Neither Aboriginal or Torres Straight Islander,0,923,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.665915239,Re-admission
 4230,R219,Y,Not Given,F,76,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 4231,R219,Y,Y,F,74,13,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
-4232,R206,Not Given,Not Given,M,21,6,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4232,R206,Not Given,Not Given,M,21,6,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4233,R206,Not Given,Not Given,F,68,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1592,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.49122807,No Re-admission
 4234,R205,Y,Y,F,75,8,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4235,R208,Y,Not Given,M,76,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -4437,12 +4437,12 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4436,R219,Not Given,Not Given,M,0,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
 4437,M206,Not Given,Not Given,M,61,1,49 Orthopaedics,Neither Aboriginal or Torres Straight Islander,0,1700,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.45106383,No Re-admission
 4438,M206,Not Given,Not Given,M,69,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-4439,R205,Not Given,Not Given,F,1,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4439,R205,Not Given,Not Given,F,1,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4440,R207,Y,Not Given,M,26,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2016,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.385,No Re-admission
 4441,R205,Not Given,Not Given,M,56,4,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 4442,R205,Not Given,Not Given,M,25,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-4443,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
-4444,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4443,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
+4444,R205,Not Given,Not Given,F,33,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4445,R205,Not Given,Not Given,F,0,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1610,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.293233083,No Re-admission
 4446,R205,Not Given,Not Given,M,22,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 4447,R219,Not Given,Not Given,M,22,1,49 Orthopaedics,Neither Aboriginal or Torres Straight Islander,0,1700,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.45106383,No Re-admission
@@ -4465,15 +4465,15 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4464,R205,Not Given,Not Given,M,75,1,17 Haematology,Neither Aboriginal or Torres Straight Islander,1,443,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.797235023,Re-admission
 4465,R205,Not Given,Not Given,M,35,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 4466,R205,Not Given,Not Given,M,50,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
-4467,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4467,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4468,R205,Not Given,Not Given,F,49,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4469,R205,Y,Not Given,M,79,13,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4470,R205,Not Given,Not Given,M,57,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 4471,R219,Y,Not Given,M,56,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-4472,R205,Not Given,Not Given,F,37,9,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4472,R205,Not Given,Not Given,F,37,9,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4473,R219,Not Given,Not Given,M,76,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 4474,R215,Not Given,Not Given,M,56,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,824,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.528683915,Re-admission
-4475,R205,Not Given,Not Given,F,26,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4475,R205,Not Given,Not Given,F,26,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4476,R219,Not Given,Not Given,F,10,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 4477,R219,Not Given,Not Given,F,31,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1640,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.387700535,No Re-admission
 4478,R219,Y,Not Given,M,0,2,27 Non Subspecialty Medicine,Aboriginal,0,455,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.65345474,Re-admission
@@ -4537,7 +4537,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4536,R207,Not Given,Not Given,M,50,1,99 Unallocated,Aboriginal,1,NA,NA,NA,NA
 4537,R219,Not Given,Not Given,M,50,3,NA,Aboriginal,0,NA,NA,NA,NA
 4538,M207,Not Given,Not Given,F,82,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
-4539,M207,Not Given,Not Given,F,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4539,M207,Not Given,Not Given,F,29,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4540,M211,Y,Not Given,F,73,8,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 4541,M211,Y,Not Given,F,76,6,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,0,955,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.772959184,Re-admission
 4542,M211,Y,Not Given,F,76,6,87 Maintenance,Neither Aboriginal or Torres Straight Islander,0,251,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.693917942,Re-admission
@@ -4609,7 +4609,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4608,R219,Not Given,Not Given,F,25,1,54 Non Subspecialty Surgery,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
 4609,R219,Y,Not Given,M,78,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4610,R219,Not Given,Not Given,M,43,1,26 Pain Management,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
-4611,M207,Not Given,Not Given,F,21,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4611,M207,Not Given,Not Given,F,21,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4612,N213,Not Given,Not Given,M,72,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 4613,M207,Not Given,Not Given,M,62,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,768,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.061827957,No Re-admission
 4614,M207,Not Given,Not Given,M,35,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -4885,7 +4885,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 4884,M204,Y,Not Given,M,82,2,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4885,M204,Not Given,Not Given,M,88,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 4886,M207,Not Given,Not Given,M,83,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
-4887,R206,Not Given,Not Given,F,60,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+4887,R206,Not Given,Not Given,F,60,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 4888,R219,Not Given,Not Given,F,60,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 4889,R206,Y,Not Given,M,81,1,24 Respiratory Medicine,Neither Aboriginal or Torres Straight Islander,0,923,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.665915239,Re-admission
 4890,R206,Y,Not Given,M,81,17,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
@@ -5052,7 +5052,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5051,M207,Not Given,Not Given,F,37,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5052,M207,Not Given,Not Given,F,37,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5053,M207,Y,Not Given,F,21,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
-5054,M207,Not Given,Not Given,M,21,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5054,M207,Not Given,Not Given,M,21,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5055,M207,Y,Not Given,M,93,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2039,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.872093023,Re-admission
 5056,M207,Y,Not Given,M,93,5,87 Maintenance,Neither Aboriginal or Torres Straight Islander,0,499,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.763975155,Re-admission
 5057,M207,Y,Not Given,M,57,1,99 Unallocated,Aboriginal,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -5240,7 +5240,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5239,R219,Not Given,Not Given,F,38,1,48 ENT & Head and Neck,Neither Aboriginal or Torres Straight Islander,0,322,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.15890411,No Re-admission
 5240,R219,Y,Not Given,F,9,1,51 Plastic and Reconstructive Surgery,Aboriginal,0,352,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.194931774,No Re-admission
 5241,R218,Not Given,Not Given,F,24,3,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
-5242,R218,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5242,R218,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5243,R218,Not Given,Not Given,M,63,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5244,R219,Not Given,Not Given,F,1,1,27 Non Subspecialty Medicine,Neither Aboriginal or Torres Straight Islander,0,388,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.368627891,No Re-admission
 5245,R218,Not Given,Not Given,F,27,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
@@ -5415,7 +5415,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5414,R219,Not Given,Not Given,M,65,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 5415,R210,Not Given,Not Given,F,88,1,21 Neurology,Neither Aboriginal or Torres Straight Islander,1,1559,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.548403447,Re-admission
 5416,R219,Y,Y,F,49,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,2016,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.385,No Re-admission
-5417,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5417,R205,Not Given,Not Given,F,24,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5418,R219,Not Given,Not Given,M,44,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5419,R219,Not Given,Not Given,M,65,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,386,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.263301501,No Re-admission
 5420,R219,Y,Not Given,F,44,1,15 Gastroenterology,Neither Aboriginal or Torres Straight Islander,0,1800,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.417420814,No Re-admission
@@ -5452,7 +5452,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5451,R205,Y,Not Given,M,46,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1015,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.864864865,Re-admission
 5452,R207,Not Given,Not Given,M,82,3,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,826,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.542009885,Re-admission
 5453,R205,Not Given,Not Given,M,45,9,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1611,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.769230769,Re-admission
-5454,M207,Not Given,Not Given,F,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5454,M207,Not Given,Not Given,F,24,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5455,R219,Not Given,Not Given,F,0,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
 5456,R207,Y,Not Given,M,80,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 5457,R219,Y,Y,F,40,4,99 Unallocated,Aboriginal,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
@@ -5468,7 +5468,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5467,R207,Not Given,Not Given,M,18,1,99 Unallocated,Torres Straight Islander,1,NA,NA,NA,NA
 5468,R207,Y,Y,F,40,1,99 Unallocated,Aboriginal,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 5469,R205,Not Given,Not Given,M,22,2,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
-5470,R205,Not Given,Not Given,F,8,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5470,R205,Not Given,Not Given,F,8,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5471,R205,Y,Not Given,M,86,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,1,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 5472,R205,Not Given,Not Given,F,24,4,NA,Neither Aboriginal or Torres Straight Islander,0,NA,NA,NA,NA
 5473,R219,Y,Not Given,F,38,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,2016,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.385,No Re-admission
@@ -5500,7 +5500,7 @@ pid,Facility_ID,HadPPH,HadMH,Sex,Age,LOS,SRG_Desc,Aboriginality_Description,unpl
 5499,R205,Not Given,Not Given,M,82,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
 5500,M207,Not Given,Not Given,M,53,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5501,R205,Not Given,Not Given,F,80,5,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,813,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.560823456,Re-admission
-5502,R205,Not Given,Not Given,M,37,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0,No Re-admission
+5502,R205,Not Given,Not Given,M,37,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,804,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.0,No Re-admission
 5503,R207,Y,Y,F,83,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,255,"SRG_Desc, Age, LOS, HadPPH",0.803710732,Re-admission
 5504,R219,Not Given,Not Given,M,44,1,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1538,"SRG_Desc, Age, LOS, HadPPH, Facility_ID",0.196035242,No Re-admission
 5505,R207,Not Given,Not Given,F,38,2,99 Unallocated,Neither Aboriginal or Torres Straight Islander,0,1641,"SRG_Desc, Age, LOS, HadPPH, Facility_ID, HadMH",0.500226963,Re-admission
