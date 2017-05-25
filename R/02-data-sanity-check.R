@@ -53,6 +53,14 @@ df = df %>% mutate(
         CC_Flag = ifelse(CC_Flag == 1, "Y", "N"),
         Renal_Flag = ifelse(Renal_Flag == 1, "Y", "N"),
         
+        # convert binary vars with only two values of Y or NA to Y and N
+        HadPPH = ifelse(is.na(HadPPH), "N", HadPPH),
+        HadMH  = ifelse(is.na(HadMH), "N", HadMH),
+        CancerCode = ifelse(is.na(CancerCode), "N", CancerCode),
+        Sepsis_Flag = ifelse(is.na(Sepsis_Flag), "N", Sepsis_Flag),
+        # Complications = ifelse(is.na(Complications), "N", Complications),
+        # Diabetes = ifelse(is.na(Diabetes), "N", Diabetes),
+        
         # convert cat vars (coded as integers) to characters
         Bed_Unit_Type_on_Admission = as.character(Bed_Unit_Type_on_Admission),
         WardDschUnitType = as.character(WardDschUnitType),
@@ -73,16 +81,24 @@ df = df %>% mutate(
 id_vars = c("pid", "Stay_Number")
 drop_vars = c("Readmit_to_this_Hospital_28_Days", "Readmit_Within_28_Days", 
               "Medical_Officer_Code_1", "Discharge_Date", "Admission_Date",
-              "Discharge_Time", "Admission_Time",
-              "DRG", # too many levels of long strings
+              "Discharge_Time", "Admission_Time", 
+              "DRG", # too many levels of long strings, cannot use directly
               "Episodes_PDx", # too many levels of long strings
               "srg", # repeat of "SRG"
-              "LOS"
+              "AdmWard", # admission ward
+              "WardDschUnitType", # discharge ward
+              "Marital_Status_Code", # has less cnt in the last level than Marital_Status_NHDD so use later
+              "Country_of_Birth",
+              "Intention_to_readmit", # doctor's opinion as if to readmit, too correlated with outcome
+              "LOS", # use LosHours, which also includes the hours
+              "Age_Group" # use the continuous version
               )
 yvar = "unplanned_readmit_28_Days"
 xvars = names(df)[!names(df) %in% c(id_vars, drop_vars, yvar)]
-# xvars_con = c("Age", "LOS")
-# xvars_cat = xvars[!xvars %in% xvars_con]
+is_con = sapply(df[xvars], function(x) class(x) %in% c("integer", "numeric"))
+is_cat = sapply(df[xvars], function(x) class(x) %in% c("factor", "character"))
+xvars_con = xvars[is_con]
+xvars_cat = xvars[is_cat]
 
 
 # # manually look at each var distribution
@@ -91,7 +107,7 @@ xvars = names(df)[!names(df) %in% c(id_vars, drop_vars, yvar)]
 # unique(df[[xvar]])
 # f = ypct_in_cat_x(df, yvar)
 # f(xvar)
-# str(df)
+# str(df[xvars])
 
 
 # subset df with yvar and xvars 
@@ -106,3 +122,12 @@ stopifnot(prop.table(table(tmp[[yvar]]))[2] < 0.01)
 if (sum(duplicated(df)) > 0) df = df[!dupes_logical,]
 # nrow(df)
 # str(df)
+
+# save freq count of each categorical xvar as csv file
+f = mk_tbl_cat_var(df)
+freq_path = file.path(csv_path, "freq")
+dir.create(freq_path, showWarnings = F)
+invisible(lapply(xvars_cat, function(xvar) 
+        write.csv(f(xvar), row.names = T,
+                  file.path(freq_path, paste0("freq_", xvar, ".csv"))))
+)

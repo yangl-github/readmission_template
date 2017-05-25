@@ -11,21 +11,24 @@ knitr::opts_chunk$set(comment = "", tidy = F, echo = F, warning = F,
 
 #+ results = "asis"
 
-# continuous xvars
+# show summary stats of the continuous xvars
+f = summ_stats_con_vars(df)
+print(kable(f(xvars_con), row.names = F))
+cat("\n")
+
+# plot y ~ each continuous var
 plt = mk_boxplot(df)
-plt(yvar, "Age", ylab = "Age", xlab = yvar)
-p = plt(yvar, "LOS", ylab = "LOS", xlab = yvar)
-scale_axis(p, scale = "log10")
+p = plt(yvar, xvars_con[1], ylab = xvars_con[1], xlab = yvar)
+print(scale_axis(p, scale = "log10"))
+p = plt(yvar, xvars_con[2], ylab = xvars_con[2], xlab = yvar)
+print(p)
 
 
-# categorical xvars
-f = ypct_in_cat_x(df, yvar)
-invisible(lapply(c("Age", xvars_cat), function(xvar) 
-        print(kable(f(xvar), row.names = F))))
+# print distribution of  y ~ each cat var
+g = ypct_in_cat_x(df, yvar)
+invisible(lapply(xvars_cat, function(xvar) 
+        print(kable(g(xvar), row.names = F)))
+)
 
 
-# distribution of LOS
-x = summary(df$LOS)
-tbl = data.frame(LOS = as.numeric(x))
-row.names(tbl) = names(x)
-print(kable(tbl, row.names = T))
+
