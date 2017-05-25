@@ -1,6 +1,6 @@
 # install packages from cran
-cran_pkgs = c("devtools", "readr", "tidyr", "dplyr", "knitr", "rmarkdown",
-              "foreach", "doParallel")
+cran_pkgs = c("devtools", "readr", "tidyr", "plyr", "dplyr", "knitr", 
+              "rmarkdown", "foreach", "doParallel", "caret", "C50")
 for (pkg in cran_pkgs) {
         if (!pkg %in% installed.packages()) {
                 cat(paste(pkg, "missing, will attempt to install\n"))
@@ -28,7 +28,7 @@ lapply(c(cran_pkgs, github_pkgs), FUN=library, character.only = TRUE)
 
 # set options
 options(scipen = 999) # disable scientific notation
-ncores = parallel::detectCores() / 2 # same value as what registerDoMC() gives
+ncores = parallel::detectCores() # / 2 is same as what registerDoMC() gives
 registerDoParallel(cores = ncores)
 cat("Number of workers registered:", ncores, "\n\n")
 
@@ -38,8 +38,10 @@ helper_path = "R/helper"
 output_path = "output"
 csv_path = file.path(output_path, "csv")
 pdf_path = file.path(output_path, "pdf")
+cleaned_path = file.path(data_path, "cleaned")
 dir.create(csv_path, showWarnings = F, recursive = T)
 dir.create(pdf_path, showWarnings = F, recursive = T)
+dir.create(cleaned_path, showWarnings = F)
 
 # source helper functions
 for (fname in list.files(helper_path)) source(file.path(helper_path, fname))

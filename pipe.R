@@ -21,6 +21,8 @@ rmarkdown::render("R/03-exploratory-analysis.R",
                   output_file = "03-exploratory-analysis-after.pdf",
                   output_dir  = pdf_path)
 
+source("R/07-train.R")
+
 # source("R/09-get-tree-probs-classlabels-from-ruleset.R")
 # source("R/10-score-patients-n-output-scoring-pathways.R")
 
