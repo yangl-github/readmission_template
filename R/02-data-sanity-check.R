@@ -48,19 +48,6 @@ df = df %>% mutate(
         # remove white spaces
         Source_of_Referral = gsub("\\s+$", "", Source_of_Referral),
         
-        # convert 0/1 vars to characters of values N/Y
-        Sepsis_Flag = ifelse(Sepsis_Flag == 1, "Y", "N"),
-        CC_Flag = ifelse(CC_Flag == 1, "Y", "N"),
-        Renal_Flag = ifelse(Renal_Flag == 1, "Y", "N"),
-        
-        # convert binary vars with only two values of Y or NA to Y and N
-        HadPPH = ifelse(is.na(HadPPH), "N", HadPPH),
-        HadMH  = ifelse(is.na(HadMH), "N", HadMH),
-        CancerCode = ifelse(is.na(CancerCode), "N", CancerCode),
-        Sepsis_Flag = ifelse(is.na(Sepsis_Flag), "N", Sepsis_Flag),
-        # Complications = ifelse(is.na(Complications), "N", Complications),
-        # Diabetes = ifelse(is.na(Diabetes), "N", Diabetes),
-        
         # convert cat vars (coded as integers) to characters
         Bed_Unit_Type_on_Admission = as.character(Bed_Unit_Type_on_Admission),
         WardDschUnitType = as.character(WardDschUnitType),
@@ -74,6 +61,31 @@ df = df %>% mutate(
         Medicare_Eligibilty_Status = as.character(Medicare_Eligibilty_Status),
         Intention_to_readmit = as.character(Intention_to_readmit)
         )
+
+# convert 0/1 vars to characters of values N/Y, and
+# convert binary vars with only two values of Y or NA to Y and N
+df = within(df, {
+        Sepsis_Flag[Sepsis_Flag == 1] = "Y"
+        Sepsis_Flag[Sepsis_Flag == 0] = "N"
+        Sepsis_Flag[is.na(Sepsis_Flag)] = "N"
+        
+        CC_Flag[CC_Flag == 1] = "Y"
+        CC_Flag[CC_Flag == 0] = "N"
+        CC_Flag[is.na(CC_Flag)] = "N"
+        
+        Renal_Flag[Renal_Flag == 1] = "Y"
+        Renal_Flag[Renal_Flag == 0] = "N"
+        Renal_Flag[is.na(Renal_Flag)] = "N"
+        
+        HadPPH[is.na(HadPPH)] = "N"
+        HadMH[is.na(HadMH)] = "N"
+        CancerCode[is.na(CancerCode)] = "N"
+        # Complications[is.na(Complications)] = "N"
+        # Diabetes[is.na(Diabetes)] = "N"
+})
+
+
+
 
 ## END clean ##
 
@@ -89,6 +101,13 @@ drop_vars = c("Readmit_to_this_Hospital_28_Days", "Readmit_Within_28_Days",
               "WardDschUnitType", # discharge ward
               "Marital_Status_Code", # has less cnt in the last level than Marital_Status_NHDD so use later
               "Country_of_Birth",
+              "Country_of_Birth_SACC", # too many sparse levels
+              "Financial_Class_Local", # too many sparse levels
+              "Legal_Status_on_Admit", # too many sparse levels
+              "Source_of_Referral",    # too many sparse levels
+              "Bed_Unit_Type_on_Admission", # too many sparse levels
+              "ED_Mode_of_Arrival", # heavy NAs
+              "Referred_to_on_Separation", # existence of singular level  
               "Intention_to_readmit", # doctor's opinion as if to readmit, too correlated with outcome
               "LOS", # use LosHours, which also includes the hours
               "Age_Group" # use the continuous version
@@ -122,6 +141,7 @@ stopifnot(prop.table(table(tmp[[yvar]]))[2] < 0.01)
 if (sum(duplicated(df)) > 0) df = df[!dupes_logical,]
 # nrow(df)
 # str(df)
+
 
 # save freq count of each categorical xvar as csv file
 f = mk_tbl_cat_var(df)
