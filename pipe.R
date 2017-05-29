@@ -1,30 +1,35 @@
 rm(list = ls())
 
-t0 = Sys.time()
-
 source("R/00-user-input.R")
 source("R/01-set-up.R")
-source("R/02-data-sanity-check.R")
+source("R/02-drop-inaccurate-records-n-dedupe.R")
+source("R/03-split-data.R")
 
-# help data scientist understand the data and choose modeling strategies 
-# NO need to run in production
-rmarkdown::render("R/03-exploratory-analysis.R",
-                  output_file = "03-exploratory-analysis-before.pdf",
-                  output_dir  = pdf_path)
 
-source("R/04-impute-NA.R")
-source("R/05-bin-sparse-levels.R")
-source("R/06-save-cleaned-stats-n-files.R")
+t0 = Sys.time()
 
-# NO need to run in production
-rmarkdown::render("R/03-exploratory-analysis.R",
-                  output_file = "03-exploratory-analysis-after.pdf",
-                  output_dir  = pdf_path)
+## BEGIN Train Model ##
 
+source("R/04-prep-data-training.R")
+source("R/05-save-data-cleaned.R")
 # source("R/07-train.R")
 
+## END Train Model ##
+
+(dur = Sys.time() - t0)
+
+
+
+
+t0 = Sys.time()
+
+## BEGIN Scoring New Patients ##
+
+source("R/score-new-patients/01-prep-data.R")
 # source("R/09-get-tree-probs-classlabels-from-ruleset.R")
 # source("R/10-score-patients-n-output-scoring-pathways.R")
 
-dur = Sys.time() - t0
-print(dur)
+
+## END Scoring New Patients ##
+
+(dur = Sys.time() - t0)

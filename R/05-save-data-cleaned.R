@@ -11,7 +11,8 @@ invisible(lapply(xvars_cat, function(xvar)
 )
 
 # save for later use
-write_rds(df, file.path(cleaned_path, "df.rds"))
+write_rds(df, file.path(cleaned_path, "df_train.rds"))
+write_rds(yvar, file.path(cleaned_path, "yvar.rds"))
 write_rds(xvars, file.path(cleaned_path, "xvars.rds"))
 write_rds(xvars_con, file.path(cleaned_path, "xvars_con.rds"))
 write_rds(xvars_cat, file.path(cleaned_path, "xvars_cat.rds"))
