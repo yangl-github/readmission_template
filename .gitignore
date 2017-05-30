@@ -1,7 +1,14 @@
+.DS_Store
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+data
+output
 .csv
+<<<<<<< HEAD
 output
 data
+=======
+.pdf
+>>>>>>> f3feca682c345af926569b43caf722481d742b5a
