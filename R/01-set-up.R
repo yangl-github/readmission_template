@@ -1,5 +1,5 @@
 # install packages from cran
-cran_pkgs = c("devtools", "readr", "tidyr", "plyr", "dplyr", "knitr", 
+cran_pkgs = c("devtools", "readr", "tidyr", "plyr", "dplyr", "stringr", "knitr", 
               "rmarkdown", "foreach", "doParallel", "caret", "C50")
 for (pkg in cran_pkgs) {
         if (!pkg %in% installed.packages()) {
@@ -28,7 +28,7 @@ lapply(c(cran_pkgs, github_pkgs), FUN=library, character.only = TRUE)
 
 # set options
 options(scipen = 999) # disable scientific notation
-ncores = parallel::detectCores() # / 2 is same as what registerDoMC() gives
+ncores = parallel::detectCores() / 2 # same as what registerDoMC() gives
 registerDoParallel(cores = ncores)
 cat("Number of workers registered:", ncores, "\n\n")
 
